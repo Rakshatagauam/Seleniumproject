@@ -1,0 +1,27 @@
+package Day11;
+
+    class Bank
+     {
+	   double roi()
+	   {
+		   return 0.0;
+	   }
+	}
+    class ICIC extends Bank
+    {
+    	double roi()
+    	{
+    		return 11.5;
+    	}
+    }
+
+public class OverriddingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     ICIC ic= new ICIC();
+     ic.roi();
+     
+	}
+
+}

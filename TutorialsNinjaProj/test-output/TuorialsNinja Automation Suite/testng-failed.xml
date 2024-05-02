@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TuorialsNinja Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TuorialsNinja Test cases(failed)">
+    <classes>
+      <class name="com.tutorialsninja.qa.testcases.Login">
+        <methods>
+          <include name="loginwithvalidcrendential"/>
+          <include name="teardown"/>
+          <include name="verifylogwithoutprovidingcredentials"/>
+          <include name="verifylogwithinvalidemailvaildpassword"/>
+          <include name="verifywithinvalidcredentials"/>
+          <include name="setup"/>
+          <include name="verifylogwithvalidemailInvaildpassword"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.Login -->
+      <class name="com.tutorialsninja.qa.testcases.Register">
+        <methods>
+          <include name="verifyregisteringaccountbyenteringexistingemailid"/>
+          <include name="verifyresgisteringaccountwithexistingemailaddress"/>
+          <include name="verifyregisteringaccountwithoutfilinganydetails"/>
+          <include name="verifyregisteryaccountbyprovidingallfield"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="veriftyregisteraccountwithmandatoryfield"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.Register -->
+      <class name="com.tutorialsninja.qa.testcases.Search">
+        <methods>
+          <include name="verifysearchwithInvalidproduct"/>
+          <include name="setup"/>
+          <include name="verifysearchwithoutanyproduct"/>
+          <include name="teardown"/>
+          <include name="verifysearchwithvalidproduct"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.qa.testcases.Search -->
+    </classes>
+  </test> <!-- TuorialsNinja Test cases(failed) -->
+</suite> <!-- Failed suite [TuorialsNinja Automation Suite] -->
